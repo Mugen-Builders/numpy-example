@@ -13,7 +13,7 @@ echo "Building riscv64 wheels into $WHEELS_DIR ..."
 docker run --rm \
   --platform linux/riscv64 \
   -v "$WHEELS_DIR:/wheels" \
-  cartesi/python:3.10-slim-jammy \
+  cartesi/python:3.13.2-slim-noble \
   sh -c "
     set -e
     apt-get update -q
