@@ -56,9 +56,10 @@ When prompted for the hex payload, encode the following JSON:
 
 ### Example result
 
-$$
-\begin{bmatrix}1&2\\3&4\end{bmatrix} \times \begin{bmatrix}5&6\\7&8\end{bmatrix} = \begin{bmatrix}19&22\\43&50\end{bmatrix}
-$$
+```
+[[1, 2],   [[5, 6],   [[19, 22],
+ [3, 4]] ×  [7, 8]] =  [43, 50]]
+```
 
 The application emits a notice with:
 
